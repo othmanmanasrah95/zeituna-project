@@ -1,0 +1,22 @@
+# Node modules
+node_modules/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build directory (React)
+/client/dist
+
+# Hardhat artifacts
+/contracts/artifacts
+/contracts/cache
+
+# VS Code files
+.vscode/
